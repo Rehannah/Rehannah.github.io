@@ -1,4 +1,13 @@
-- role: Open Source Fellow
-  company: MLH Fellowship
-  dates: Summer 2020
-  logo: fellowship.svg
+- role: Hacker
+  event: Hacktoberfest 2020
+  company: Digital Ocean
+  dates: October 2020
+  logo: 
+  
+  - role: Hacker
+  event: MLH Hackathons
+  company: Major League Hacking
+  dates: 2020-2021
+  logo: 
+  
+  
