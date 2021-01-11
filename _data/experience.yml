@@ -2,12 +2,11 @@
   event: Hacktoberfest 2020
   company: Digital Ocean
   dates: October 2020
-  logo: hcktoberfest.svg
+  logo: 'hcktoberfest.svg'
   
-  - role: Hacker
+- role: Hacker
   event: MLH Hackathons
   company: Major League Hacking
   dates: 2020-2021
   logo: 
-  
   
