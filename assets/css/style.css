@@ -268,7 +268,7 @@
          
          #home {
              padding-top: 4rem;
-             padding-bottom: 8rem;
+             padding-bottom: 6rem;
          }
          
          .desc {
@@ -286,14 +286,13 @@
          }
          
          .skills-list {
-             list-style: none;
              margin: 0;
              padding: 0;
          }
          /*==== PROJECTS ====*/
          
          #projects {
-             padding-top: 4rem;
+             padding-top: 6rem;
              padding-bottom: 6rem;
          }
          
@@ -374,7 +373,19 @@
              padding: 2rem;
          }
          
-         .contact-div .contact-desc {
+         .con {
+             font-size: 1rem;
+         }
+         
+         .con:hover {
+             color: var(--primary-color);
+         }
+         
+         .contact-icons {
+             margin-top: 0!important;
+         }
+         
+         .contact-desc {
              margin: 0rem;
              background-color: linear-gradient(rgba(255, 255, 255, 0.));
              font-size: 20px;
