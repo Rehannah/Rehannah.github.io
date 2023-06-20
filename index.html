@@ -44,7 +44,6 @@
 
 <body>
     <!-- Navbar -->
-
     <nav class="navbar custom-navbar navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -63,7 +62,7 @@
                     <li><a href="#about" class="nav__link">About</a></li>
                     <li><a href="#projects" class="nav__link">Projects</a></li>
                     <li><a href="#contact" class="nav__link">Contact</a></li>
-                    <li><a href="https://drive.google.com/file/d/17dsHmkEfoaULmQJd7k6dhwET1qsRZmUG/view?usp=sharing" class="nav__link" target="_blank">Resume</a></li>
+                    <li><a href="https://drive.google.com/file/d/1vQrAT-c2NKAtK88izwGzShHQNz7eA4JW/view?usp=sharing" class="nav__link" target="_blank">Resume</a></li>
                 </ul>
             </div>
         </div>
@@ -79,9 +78,10 @@
                         <h1 class=" typewriter">Rehannah Baptiste</h1>
                     </div>
                     <div class="col-med-12 col-sm-12">
-                        <p class="desc"> Software Engineer enthusiast and avid developer residing in Trinidad and Tobago.
-                            <br/>Making contributions towards
-                            <span class="blurple"> efficient </span> solutions and solving <span class="blurple"> real world </span> problems.
+                        <p class="desc"> Software Engineer residing in Trinidad and Tobago.
+                            <br/> Making contributions towards
+                            <span class="blurple"> efficient </span> solutions to <span class="blurple"> real </span> problems.
+                            <br/> Constantly elevating personal and professional skills through continuous learning and improvement.
                         </p>
                         <div class="desc">
                             <p>Check out more about me and what I've been working on <span class="blurple">⬇</span></p>
@@ -93,7 +93,7 @@
         </section>
 
         <div>
-            <!-- TODO! Include divider image -->
+            <!-- DIVIDER -->
         </div>
 
         <!-- ABOUT Section -->
@@ -109,7 +109,7 @@
                     <img class="center" id="profile-pic" alt="avatar" src="./assets/img/profile-pic-2.png " />
                     <div class="contact-icons desc">
                         <br/><br/>
-                        <a href="https://drive.google.com/file/d/17dsHmkEfoaULmQJd7k6dhwET1qsRZmUG/view?usp=sharing" target="_blank" class="contact-resume">
+                        <a href="https://drive.google.com/file/d/1vQrAT-c2NKAtK88izwGzShHQNz7eA4JW/view?usp=sharing" target="_blank" class="contact-resume">
                             <p class="con">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
                             <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755z"/>
@@ -153,14 +153,25 @@
                 <div class="col-lg-7 ml-auto">
                     <div class="row">
                         <h3 style="margin-top:0"> Hi, I'm <span class=" blurple "> Rehannah. </span> Nice to meet you. </h3>
-                        <p>I'm currently a Computer Science (Special) undergraduate at the University of the West Indies, St. Augustine, with knowledge in various programming languages, web development and software engineering practices.</p>
-                        <p> As a rising developer, my dedication runs deep. I am enthusiastic to learn, quietly confident and continually striving towards building creative solutions which fulfil client requirements.</p>
+                        <p> I'm a recent graduate of the University of the West Indies with a BSc. in Computer Science (Special).
+                            I possess knowledge in various tech fields, with experience in software engineering, web development, project management, game programming and quality assurance.
+                        </p>
+                        <p> As a rising developer, my dedication runs deep. I am enthusiastic to learn, quietly confident and continually striving towards building creative and effective solutions to fulfil client requirements.</p>
 
                         <!-- === SKILLS === -->
                         <h3 class="blurple"> Skills:</h3>
                     </div>
                     <div class="row skills-container">
-                        <div class=col-md-4>
+                        <!--  -->
+                        <ul class="skills-list">
+                            <li> Programming: C++, Java, Python </li>
+                            <li> Web & DB: HTML, CSS, JS, Flask, SQL </li>
+                            <li> QA & Technical: UiPath RPA, Git, VSCode, Android Studio, MS Office Suite</li>
+                        </ul>
+
+                        
+                        <!--  -->
+                        <!-- <div class=col-md-4>
                             <ul class="skills-list ">
                                 <li>C++</li>
                                 <li>Java</li>
@@ -181,17 +192,88 @@
                                 <li>Bootstrap</li>
                                 <li>Materialize CSS</li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
-
         </section>
 
         <section>
             <div class="container">
                 <div class="row" id="projects">
                     <h2 style="padding-left:1rem;"> Projects I've worked on:</h2>
+                    
+                    <div class="project container card">
+                        <div class="col-lg-6">
+                            <h3 class="project-title"> Feedback Module </h3>
+                            <p class="project-desc"> Rule based AI module providing emotive and culturally aware spelling feedback.
+                                Built in collaboration with two other group members.
+                            </p>
+                            <p class="desc"><span class="blurple"> Built with: </span> Python/Flask, Nostril and NLTK libraries </p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <br/>
+                            <img src="./assets/img/projects/feedbackmod.jpg" class="proj-img" /><br/><br/>
+                            <img src="./assets/img/projects/feedbackmod2.jpg" class="proj-img" /><br/><br/>
+                        </div>
+                    </div>
+
+                    <div class="project container card">
+                        <div class="col-lg-6">
+                            <h3 class="project-title"> growDem </h3>
+                            <p class="project-desc"> Team project pitch proposed by myself and five other members addressing the food security problem in Trinidad & Tobago using a technological solution.
+                                <br/> Pitched in front of a live panel as a part of Huawei's Seeds for the Future (2022) Tech4Good (Purpose In Motion) programme.
+                            </p>
+                            <p class="desc"><span class="blurple"> Proposed Technologies: </span> AI, IoT </p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <br/>
+                            <img src="./assets/img/projects/growDem.jpg" class="proj-img" /><br/><br/>
+                        </div>
+                    </div>
+
+                    <div class="project container card" style="background-color: rgb(49, 46, 61);">
+                        <div class="col-lg-6">
+                            <h3 class="project-title"> CARD Conduct Tracker </h3>
+                            <p class="project-desc">
+                                Allows lecturers to rate and review the conduct of their students in order to merit deserving students in positions of leadership or recommendation.
+                                Built through collaboration with three other group members.
+                            </p>
+                            <p class="desc"><span class="blurple"> Built with: </span> Python/Flask, HTML, CSS, JS, Materialize CSS, SQLAlchemy.</p>
+
+                            <a class="project-link" href="https://github.com/D-R-A-C/COMP3613-Conduct-Tracker-Refactor" target="blank">
+                                <button class="btn"> View repo</button>
+                            </a>
+                            <a class="project-link" href="https://card-conduct-tracker.onrender.com/" target="blank">
+                                <button class="btn">Live site  </button>
+                            </a>
+                        </div>
+                        <div class="col-12 col-lg-6"><br/>
+                            <img src="./assets/img/projects/card.jpg" class="proj-img" /><br/><br/>
+                            <img src="./assets/img/projects/card2.jpg" class="proj-img" /><br/><br/>
+                        </div>
+                    </div>
+
+                    <div class="project container card" style="background-color: rgb(49, 46, 61);">
+                        <div class="col-lg-6">
+                            <h3 class="project-title"> TravelSafeTT </h3>
+                            <p class="project-desc">
+                                A mobile app and companion site that improves travel safety by providing a scannable driver verification QR code and live location sharing. Built through collaboration with four other group members.
+                            </p>
+                            <p class="desc"><span class="blurple"> Built with: </span> HTML, CSS, JS, jQuery, Materialize CSS.</p>
+
+                            <a class="project-link" href="https://github.com/Pair-O-Dime-Industries/RideSafeFr" target="blank">
+                                <button class="btn"> View repo</button>
+                            </a>
+                            <!-- <a class="project-link" href="https://travelsafett.ga/" target="blank">
+                                <button class="btn">Live site  </button>
+                            </a> -->
+                        </div>
+                        <div class="col-12 col-lg-6"><br/>
+                            <img src="./assets/img/projects/Travelsafe.jpg" class="proj-img" /><br/><br/>
+                        </div>
+                    </div>
+
                     <div class="project container card">
                         <div class="col-lg-6">
                             <h3 class="project-title"> Memory vs Gender Analysis Game </h3>
@@ -207,25 +289,6 @@
                             <img src="./assets/img/projects/stars.jpg" class="proj-img" />
                         </div>
                     </div>
-                    <div class="project container card" style="background-color: rgb(49, 46, 61);">
-                        <div class="col-lg-6">
-                            <h3 class="project-title"> TravelSafeTT </h3>
-                            <p class="project-desc">
-                                A mobile app and companion site that improves travel safety by providing a scannable driver verification QR code and live location sharing. Built through collaboration with four other group members.
-                            </p>
-                            <p class="desc"><span class="blurple"> Built with: </span> HTML, CSS, JS, jQuery, Materialize CSS.</p>
-
-                            <a class="project-link" href="https://github.com/Pair-O-Dime-Industries/RideSafeFr" target="blank">
-                                <button class="btn"> View repo</button>
-                            </a>
-                            <a class="project-link" href="https://travelsafett.ga/" target="blank">
-                                <button class="btn">Live site  </button>
-                            </a>
-                        </div>
-                        <div class="col-12 col-lg-6"><br/>
-                            <img src="./assets/img/projects/Travelsafe.jpg" class="proj-img" /><br/><br/>
-                        </div>
-                    </div>
 
                     <div class="project container card" style="background-color: rgb(49, 46, 61);">
                         <div class="col-lg-6">
@@ -239,9 +302,9 @@
                                 <button class="btn">View repo </button>
                             </a>
 
-                            <a class="project-link" href="https://heal-me1.herokuapp.com/" target="blank">
+                            <!-- <a class="project-link" href="https://heal-me1.herokuapp.com/" target="blank">
                                 <button class="btn">Live site  </button>
-                            </a>
+                            </a> -->
                             <a class="project-link" href="https://devpost.com/software/heal-me" target="blank">
                                 <button class="btn">  View Devpost </button>
                             </a>
